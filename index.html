@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicios</title>
+</head>
+<body>
+    <div class="titulo"><h1>Ejercicios de clase</h1></div>
+    <div class="preguntas">
+        <div class="pregunta1">
+            <form id="form1" action="" method="post">
+                <label>
+                    <p>Pregunta 1	Realizar un programa para escribir en pantalla la siguiente figura de n filas</p>
+                    <pre>
+    1
+
+    12
+
+    123
+
+    123...n
+                    </pre>
+                    <input type="number" name="valor" id="inputPreg1">
+                </label>
+                <p id="Respuesta1"></p>
+                <button onclick="pregunta1()"> Enviar datos</button>
+            </form>
+        </div>
+        <div class="pregunta2">
+                <label>
+                    <p>Pregunta 2	Realizar un programa para escribir en pantalla siguiente triangulo</p>
+                    <pre>
+    1
+
+    121
+
+    1331
+
+    .
+
+    1…..1
+                    </pre>
+                    <input type="number" name="valor" id="inputPreg2">
+                </label>
+                <p id="Respuesta2"></p>
+                <button onclick="pregunta2()"> Enviar datos</button>
+        </div>
+        <div class="pregunta3">
+            <label>
+                <p>Pregunta 3	Realizar un programa para introducir varios números hasta que ingrese el -1 en este caso debe imprimir los factores primos de cada número ingresado, excepto el ultimo.</p>
+                <input type="number" name="valor" id="inputPreg3">
+            </label>
+            <p id="PreRespuesta3"></p>
+            <p id="Respuesta3"></p>
+            <button onclick="pregunta3()"> Enviar datos</button>
+        </div>
+
+        <div class="pregunta4">
+            <label>
+                <p>Pregunta 4	Realizar un programa para Ingresar datos de un estudiante a una lista y utilizando botones a modo de opciones agregue un elemento a la lista, suprima un elemento de la lista, muestre todos los elementos de la lista, muestre un listado ordenado de los elementos de la lista. (para resolver este ejercicio debe usar HTML JAVASCRIPT y en lo posible CSS)</p>
+                <input type="number" name="valor" id="inputPreg4">
+            </label>
+            <p id="Respuesta4"></p>
+            <button onclick="pregunta4()"> Enviar datos</button>
+        </div>
+
+    </div>
+    <footer><div><p>creador por Cesar E. Mosquez Cabrera</p></div></footer>
+    <script src="app.js"></script>
+</body>
+</html>

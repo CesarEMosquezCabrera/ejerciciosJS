@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+.titulo{
+    background-color: red;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo h1{
+    margin: 0;
+}
+
+.preguntas div{
+    margin-left: 30px;
+}
+
+/* este es el footer */
+footer{
+    background-color: rgb(17, 220, 247);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+footer div p{
+    margin: 0;
+}
